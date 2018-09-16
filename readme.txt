@@ -1,4 +1,6 @@
-所有节点都执行以下步骤：
+支持在双网卡机器上安装OpenStack的Ocata版本。
+
+执行以下步骤：
 1.安装CentOS 7.2 x86_64或者CentOS 7.3 x86_64，安装过程中选择“Web Server”组件。
 2.配置网络。
 	2.1 将管理网口配置成固定IP；
@@ -10,5 +12,4 @@
 	2.3 重启网络或者重启机器
 4.根据需要修改config/config.sh。
 5.执行脚本：
-	./main.sh <allinone|controller|compute>
-
+	./main.sh allinone
