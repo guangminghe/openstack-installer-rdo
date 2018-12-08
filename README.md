@@ -11,7 +11,7 @@
 　　　　ONBOOT="yes"<br>
 　　　　BOOTPROTO="none"<br>
 　　2.3 重启网络或者重启机器<br>
-4.根据需要修改config/config.sh。<br>
-5.执行脚本：<br>
+3.根据需要修改config/config.sh。<br>
+4.执行脚本：<br>
 　　./main.sh allinone<br>
 <br>
